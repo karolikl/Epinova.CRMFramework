@@ -94,10 +94,6 @@
     <Compile Include="QueryHelper.cs" />
     <Compile Include="CrmControllerHelper.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Epinova.CRMFramework.nuspec" />
-    <None Include="Web.config.transform" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>
